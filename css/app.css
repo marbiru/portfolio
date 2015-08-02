@@ -1,7 +1,23 @@
 .card {
-	background: #E0E0E0 ;
+	background: rgba(50, 0, 0, 0.05) ;
 }
 
-h1, h2, h3, h4, h5, .footnote {
+h1, h2, h3, h4, h5, h6, .footnote {
+	font-family: 'Lato', sans-serif;
 	text-align: center;
+}
+
+h1 {
+	margin-top: 30px;
+}
+
+.about {
+	margin-top: 20px;
+}
+
+
+/* courtesy of subtlepatterns.com */
+
+body {
+    background-image: url("crossword.png");
 }
